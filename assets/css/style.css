@@ -1,0 +1,77 @@
+:root {
+    --color-dark: #091625;       
+    --color-medium: #234458;     
+    --color-accent: #45687d;     
+    --color-light: #b8dcee;      
+    /* --color-dark: #1B3C53;       
+    --color-medium: #456882;     
+    --color-accent: #D2C1B6;     
+    --color-light: #F9F3EF;       */
+  }
+
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(135deg, var(--color-dark), var(--color-medium));
+  }
+
+  #spotlight {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    background: radial-gradient(
+      circle 180px at center,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(249, 243, 239, 0.5) 100%
+    );
+    mix-blend-mode: overlay;
+    transition: background 0.1s linear;
+  }
+
+
+  .form-card {
+    width: 100%;
+    max-width: 520px;
+    border-radius: 16px;
+    background: var(--color-light);
+    border: none;
+    z-index: 2;
+    position: relative;
+    padding: 2rem;
+  }
+  
+  .modern-input {
+    border-radius: 10px;
+    border: 1px solid var(--color-accent);
+    padding: 10px 12px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  .modern-input:focus {
+    border-color: var(--color-medium);
+    box-shadow: 0 0 8px rgba(69, 104, 130, 0.3);
+    outline: none;
+  }
+  
+ 
+  .modern-btn {
+    border-radius: 10px;
+    padding: 12px;
+    font-weight: bold;
+    background: linear-gradient(135deg, var(--color-dark), var(--color-medium));
+    color: var(--color-light);
+    border: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .modern-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(27, 60, 83, 0.3);
+  }
