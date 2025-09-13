@@ -2,6 +2,11 @@
 
 A responsive personal portfolio website built with Bootstrap 5 as part of ITI's Bootstrap Course Labs.
 
+## 🌐 Live Demo
+
+The portfolio is deployed using GitHub Pages:
+[Personal Portfolio](https://zaher-m.github.io/ITI-Bootstrap-Course-Labs/)
+
 ## Features
 
 - **Responsive Design**: Fully responsive layout that works on all device sizes
@@ -17,10 +22,3 @@ A responsive personal portfolio website built with Bootstrap 5 as part of ITI's 
 - Bootstrap 5.3.0
 - Font Awesome 6.4.0
 - Google Fonts (Poppins)
-
-
-## 📝 Usage
-1. Clone the repository:
-```bash
-git clone https://github.com/zaher-m/ITI-Bootstrap-Course-Labs.git
-```
