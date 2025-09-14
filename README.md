@@ -1,13 +1,14 @@
-# Bootstrap Personal Portfolio
+# Login & Register Forms
 
-A responsive personal portfolio website built with Bootstrap 5 as part of ITI's Bootstrap Course Labs.
+A responsive **Login and Register forms ** built with **Bootstrap** as part of ITI's Bootstrap Course Labs.
 
 ## Features
 
-- **Responsive Design**: Fully responsive layout that works on all device sizes
-- **Professional Portfolio**: Clean presentation of skills, experience, and projects
+- **Responsive Design**: Forms adapt seamlessly to all screen sizes 
+- **Form Validation**: Required fields ensure proper input  
+- **Dynamic Switching**: Smooth transition between Login ↔ Register forms  
+- **Interactive Background**: Gradient background with dynamic spotlight effect following mouse  
 - **Modern UI**: Clean, professional design using Bootstrap 5 components
-- **GitHub Pages Deployment**
 
 ## 🛠️ Technologies Used
 
@@ -15,8 +16,6 @@ A responsive personal portfolio website built with Bootstrap 5 as part of ITI's 
 - HTML5
 - CSS3
 - Bootstrap 5.3.0
-- Font Awesome 6.4.0
-- Google Fonts (Poppins)
 
 
 ## 📝 Usage
