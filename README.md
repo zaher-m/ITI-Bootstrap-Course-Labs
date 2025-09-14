@@ -39,6 +39,11 @@ Create responsive and modern **Login** and **Register** forms using Bootstrap.
 
 ---
 
+
+## 🔹 Lab 3: AI Learning Academy Website
+
+A responsive educational website for an AI Learners. It features a modern design with a sticky header, a hero section, learning paths, featured courses, testimonials, FAQs, and a footer with a newsletter subscription.
+
 ### 🛠️ Technologies Used
 
 - JavaScript (ES6+)  
