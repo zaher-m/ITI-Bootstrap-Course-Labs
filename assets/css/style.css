@@ -1,0 +1,171 @@
+:root {    
+    --federal-blue: #03045eff;
+    --marian-blue: #023e8aff;
+    --honolulu-blue: #0077b6ff;
+    --blue-green: #0096c7ff;
+    --pacific-cyan: #00b4d8ff;
+    --vivid-sky-blue: #48cae4ff;
+    --non-photo-blue: #90e0efff;
+    --non-photo-blue-2: #ade8f4ff;
+    --light-cyan: #caf0f8ff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--light-cyan);
+    color: var(--federal-blue);
+}
+header {
+    background-color: var(--marian-blue);
+    color: var(--light-cyan);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.hero {
+    background: linear-gradient(to right, var(--vivid-sky-blue), var(--non-photo-blue));
+    color: var(--light-cyan);
+    padding: 5rem 0;
+}
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.btn-custom {
+    background-color: var(--honolulu-blue);
+    color: var(--light-cyan);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    font-weight: 600;
+}
+.btn-custom:hover {
+    background-color: var(--pacific-cyan);
+    color: var(--light-cyan);
+}
+.btn-enroll {
+    background-color: var(--honolulu-blue);
+    color: var(--light-cyan);
+    border: none;
+}
+.btn-enroll:hover {
+    background-color: var(--pacific-cyan);
+    color: var(--light-cyan);
+}
+.btn-subscribe {
+    background-color: var(--honolulu-blue);
+    color: var(--light-cyan);
+    border: none;
+}
+.btn-subscribe:hover {
+    background-color: var(--pacific-cyan);
+}
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card-learning {
+    border-top: 4px solid;
+}
+.card-learning.machine-learning {
+    border-color: var(--blue-green);
+}
+.card-learning.deep-learning {
+    border-color: var(--pacific-cyan);
+}
+.card-learning.data-science {
+    border-color: var(--blue-green);
+}
+.card-testimonial {
+    border-left: 4px solid;
+}
+.card-testimonial.testimonial-1 {
+    border-color: var(--blue-green);
+}
+.card-testimonial.testimonial-2 {
+    border-color: var(--pacific-cyan);
+}
+.card-testimonial.testimonial-3 {
+    border-color: var(--blue-green);
+}
+.card-faq {
+    border-top: 4px solid;
+}
+.card-faq.faq-1, .card-faq.faq-4 {
+    border-color: var(--blue-green);
+}
+.card-faq.faq-2 {
+    border-color: var(--pacific-cyan);
+}
+.card-faq.faq-3 {
+    border-color: var(--blue-green);
+}
+h2, h3 {
+    color: var(--pacific-cyan);
+}
+.card-learning h3 {
+    color: inherit;
+}
+.card-learning.machine-learning h3 {
+    color: var(--blue-green);
+}
+.card-learning.deep-learning h3 {
+    color: var(--pacific-cyan);
+}
+.card-learning.data-science h3 {
+    color: var(--blue-green);
+}
+.card-testimonial p.name {
+    color: inherit;
+}
+.card-testimonial.testimonial-1 p.name {
+    color: var(--blue-green);
+}
+.card-testimonial.testimonial-2 p.name {
+    color: var(--pacific-cyan);
+}
+.card-testimonial.testimonial-3 p.name {
+    color: var(--blue-green);
+}
+.card-faq h3.faq-1, .card-faq h3.faq-4 {
+    color: var(--blue-green);
+}
+.card-faq h3.faq-2 {
+    color: var(--pacific-cyan);
+}
+.card-faq h3.faq-3 {
+    color: var(--blue-green);
+}
+footer {
+    background-color: var(--marian-blue);
+    color: var(--light-cyan);
+}
+footer a {
+    color: var(--light-cyan);
+    text-decoration: none;
+}
+footer a:hover {
+    color: var(--pacific-cyan);
+}
+footer h3 {
+    color: var(--pacific-cyan);
+}
+.nav-link:hover {
+    color: var(--pacific-cyan);
+}
+.btn-login {
+    background-color: var(--honolulu-blue);
+    color: var(--light-cyan);
+}
+.btn-login:hover {
+    background-color: var(--pacific-cyan);
+    color: var(--light-cyan);
+}
+#courses, #faq {
+    background-color: var(--light-cyan);
+}
