@@ -8,6 +8,12 @@ The labs are deployed using GitHub Pages:
 [Personal Portfolio](https://zaher-m.github.io/ITI-Bootstrap-Course-Labs/)
 
 
+## 📝 Usage
+- Clone the repository:
+```bash
+git clone https://github.com/zaher-m/ITI-Bootstrap-Course-Labs.git
+```
+
 ---
 
 ## 📘 Labs Overview
